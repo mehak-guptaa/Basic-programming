@@ -6,3 +6,12 @@ function prime(num) {
         else (console.log("true"))
     }
 }
+
+function evenOdd(num) {
+    for (let i = 1; i <= num; i++){
+        if (i % 2 == 0){
+            console.log("true")
+        }
+        else {console.log("false")}
+    }
+}
